@@ -63,7 +63,8 @@
       php artisan serve
       
       cd ../frontend
-      npm run dev```
+      npm run dev
+   ```
 
 ---
 ## **🧑‍💻 Uso**
