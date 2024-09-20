@@ -6,7 +6,7 @@ import { Providers } from "@/store/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fintench",
+  title: "Innovabank",
   description: "Banca por internet",
 };
 
@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/Logo.png" />
+      </head>
       <body className={inter.className}>
         <Providers>
           {children}
