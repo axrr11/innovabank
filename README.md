@@ -59,11 +59,11 @@
      ```
 7. Ejecuta los servidores de desarrollo:
    ```bash
-      cd backend
-      php artisan serve
+    cd backend
+    php artisan serve
       
-      cd ../frontend
-      npm run dev
+    cd ../frontend
+    npm run dev
    ```
 
 ---
